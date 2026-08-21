@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.emf.mwe2.language.sdk"
+      label="%featureName"
+      version="2.26.0.v20260523-1243"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright url="http://www.eclipse.org/legal/epl-2.0">
+      Copyright (c) 2007 IBM Corporation and others.
+This program and the accompanying materials are made available under the
+terms of the Eclipse Public License 2.0 which is available at
+http://www.eclipse.org/legal/epl-2.0.
+
+SPDX-License-Identifier: EPL-2.0
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="%UpdateSiteName" url="https://download.eclipse.org/modeling/emft/mwe/updates/"/>
+      <discovery label="%UpdateSiteName" url="https://download.eclipse.org/modeling/emft/mwe/updates/"/>
+   </url>
+
+   <includes
+         id="org.eclipse.emf.mwe2.runtime.sdk"
+         version="2.26.0.v20260523-1243"/>
+
+   <includes
+         id="org.eclipse.emf.mwe2.launcher"
+         version="2.26.0.v20260523-1243"/>
+
+   <requires>
+      <import feature="org.eclipse.xtext.ui" version="2.34.0" match="compatible"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.emf.mwe2.language"
+         version="2.26.0.v20260523-1243"/>
+
+   <plugin
+         id="org.eclipse.emf.mwe2.language.ide"
+         version="2.26.0.v20260523-1243"/>
+
+   <plugin
+         id="org.eclipse.emf.mwe2.language.ui"
+         version="2.26.0.v20260523-1243"/>
+
+   <plugin
+         id="org.eclipse.emf.mwe2.launch.ui"
+         version="2.26.0.v20260523-1243"/>
+
+   <plugin
+         id="org.eclipse.emf.mwe2.language.source"
+         version="2.26.0.v20260523-1243"/>
+
+   <plugin
+         id="org.eclipse.emf.mwe2.language.ide.source"
+         version="2.26.0.v20260523-1243"/>
+
+   <plugin
+         id="org.eclipse.emf.mwe2.language.ui.source"
+         version="2.26.0.v20260523-1243"/>
+
+   <plugin
+         id="org.eclipse.emf.mwe2.launch.ui.source"
+         version="2.26.0.v20260523-1243"/>
+
+</feature>

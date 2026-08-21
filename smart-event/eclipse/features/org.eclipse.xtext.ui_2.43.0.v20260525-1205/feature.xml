@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.xtext.ui"
+      label="%featureName"
+      version="2.43.0.v20260525-1205"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      Copyright (c) 2009, 2018 itemis AG (http://www.itemis.eu) and others.
+
+This program and the accompanying materials 
+are made available under the terms of the Eclipse Public License 2.0 
+which is available at http://www.eclipse.org/legal/epl-2.0.
+
+SPDX-License-Identifier: EPL-2.0
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <includes
+         id="org.eclipse.xtext.runtime"
+         version="2.43.0.v20260525-1205"/>
+
+   <plugin
+         id="org.eclipse.xtext.ui"
+         version="2.43.0.v20260525-1205"/>
+
+   <plugin
+         id="org.eclipse.xtext.ui.source"
+         version="2.43.0.v20260525-1205"/>
+
+   <plugin
+         id="org.eclipse.xtext.common.types.ui"
+         version="2.43.0.v20260525-1205"/>
+
+   <plugin
+         id="org.eclipse.xtext.common.types.ui.source"
+         version="2.43.0.v20260525-1205"/>
+
+   <plugin
+         id="org.eclipse.xtext.common.types.shared"
+         version="2.43.0.v20260525-1205"/>
+
+   <plugin
+         id="org.eclipse.xtext.common.types.shared.source"
+         version="2.43.0.v20260525-1205"/>
+
+   <plugin
+         id="org.eclipse.xtext.common.types.shared.jdt38"
+         version="2.43.0.v20260525-1205"
+         fragment="true"/>
+
+   <plugin
+         id="org.eclipse.xtext.common.types.shared.jdt38.source"
+         version="2.43.0.v20260525-1205"
+         fragment="true"/>
+
+   <plugin
+         id="org.eclipse.xtext.ui.shared"
+         version="2.43.0.v20260525-1205"/>
+
+   <plugin
+         id="org.eclipse.xtext.ui.shared.source"
+         version="2.43.0.v20260525-1205"/>
+
+   <plugin
+         id="org.eclipse.xtext.ui.ecore"
+         version="2.43.0.v20260525-1205"/>
+
+   <plugin
+         id="org.eclipse.xtext.ui.ecore.source"
+         version="2.43.0.v20260525-1205"/>
+
+   <plugin
+         id="org.eclipse.xtext.ui.codemining"
+         version="2.43.0.v20260525-1205"/>
+
+   <plugin
+         id="org.eclipse.xtext.ui.codemining.source"
+         version="2.43.0.v20260525-1205"/>
+
+   <plugin
+         id="org.eclipse.xtext.ui.codetemplates"
+         version="2.43.0.v20260525-1205"/>
+
+   <plugin
+         id="org.eclipse.xtext.ui.codetemplates.source"
+         version="2.43.0.v20260525-1205"/>
+
+   <plugin
+         id="org.eclipse.xtext.ui.codetemplates.ide"
+         version="2.43.0.v20260525-1205"/>
+
+   <plugin
+         id="org.eclipse.xtext.ui.codetemplates.ide.source"
+         version="2.43.0.v20260525-1205"/>
+
+   <plugin
+         id="org.eclipse.xtext.ui.codetemplates.ui"
+         version="2.43.0.v20260525-1205"/>
+
+   <plugin
+         id="org.eclipse.xtext.ui.codetemplates.ui.source"
+         version="2.43.0.v20260525-1205"/>
+
+   <plugin
+         id="org.eclipse.xtext.common.types.edit"
+         version="2.43.0.v20260525-1205"/>
+
+   <plugin
+         id="org.eclipse.xtext.common.types.edit.source"
+         version="2.43.0.v20260525-1205"/>
+
+   <plugin
+         id="org.eclipse.xtext.ide"
+         version="2.43.0.v20260525-1205"/>
+
+   <plugin
+         id="org.eclipse.xtext.ide.source"
+         version="2.43.0.v20260525-1205"/>
+
+   <plugin
+         id="org.eclipse.xtext.m2e"
+         version="2.43.0.v20260525-1205"/>
+
+   <plugin
+         id="org.eclipse.xtext.m2e.source"
+         version="2.43.0.v20260525-1205"/>
+
+   <plugin
+         id="org.eclipse.xtext.buildship"
+         version="2.43.0.v20260525-1205"/>
+
+   <plugin
+         id="org.eclipse.xtext.buildship.source"
+         version="2.43.0.v20260525-1205"/>
+
+</feature>
