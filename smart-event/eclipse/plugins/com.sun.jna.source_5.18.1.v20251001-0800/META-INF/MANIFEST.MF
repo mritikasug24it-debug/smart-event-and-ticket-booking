@@ -1,8 +1,0 @@
-Manifest-Version: 1.0
-Eclipse-SourceBundle: com.sun.jna;version="5.18.1.v20251001-0800";roots:
- ="."
-Bundle-ManifestVersion: 2
-Bundle-Name: Source Bundle for com.sun.jna:5.18.1
-Bundle-SymbolicName: com.sun.jna.source
-Bundle-Version: 5.18.1.v20251001-0800
-
